@@ -7,7 +7,8 @@
 
 ✍️Cybersecurity enthusiast, learning memory forensics using volatility, reverse engineering with ghidra , binary exploitation, and malware development. 
 
-💻 University and Self-taught
+💻 University studen and Self-taught
+
 𝑰 ❤️ ***Backend*** 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒎𝒆𝒏𝒕!
 
 📖I love sharing my CTF write-ups and security blogs. Check out my [writeups and blogs](https://h3xkatana.github.io/Blog/) for more details.
