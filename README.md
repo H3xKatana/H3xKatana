@@ -5,7 +5,7 @@
 [![LinkedIn](https://img.shields.io/badge/-@H3xKatana-%23181717?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/kara-mohamed-mourtadha)
 [![Blog](https://img.shields.io/website?color=0ab9e6&style=flat-square&up_message=Blog&url=https%3A%2F%2Fh3xkatana.github.io/Blog)](https://h3xkatana.github.io/Blog/)
 
-✍️Cybersecurity enthusiast, skilled in memory forensics using volatility, reverse engineering with ghidra , binary exploitation, and malware development. 
+✍️Cybersecurity enthusiast, learning memory forensics using volatility, reverse engineering with ghidra , binary exploitation, and malware development. 
 
 💻 University and Self-taught
 𝑰 ❤️ ***Backend*** 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒎𝒆𝒏𝒕!
