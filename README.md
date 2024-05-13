@@ -70,13 +70,6 @@
 
 ## Stats
 
-
-
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=H3xKatana&show_icons=true&locale=en&layout=compact" alt="H3xKatana" />
-</p>
-[![0xKatana's GitHub stats](https://github-readme-stats.vercel.app/api?username=H3xKatana&show_icons=true&theme=dracula)](https://github.com/H3xKatana)
-<p>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=H3xKatana&" alt="H3xKatana" />
-</p>
-
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=H3xKatana&layout=compact&theme=dark)](https://github.com/H3xKatana)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=H3xKatana&show_icons=true&theme=dark)](https://github.com/H3xKatana)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=H3xKatana&theme=dark)](https://github.com/H3xKatana)
