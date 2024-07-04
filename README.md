@@ -70,6 +70,6 @@
 
 ## Stats
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=H3xKatana&layout=compact&theme=dark)](https://github.com/H3xKatana)
+<!---[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=H3xKatana&layout=compact&theme=dark)](https://github.com/H3xKatana) --->
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=H3xKatana&show_icons=true&theme=dark)](https://github.com/H3xKatana)
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=H3xKatana&theme=dark)](https://github.com/H3xKatana)
