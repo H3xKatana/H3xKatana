@@ -6,7 +6,7 @@
 ---
 
 ✍️ **Backend Engineer** (Python & Go lover, occasionally vibing with frontend)  
-💻 **DevOps Engineer** (Breaking, fixing, automating — repeat)  
+💻 **DevOps Engineer** (Breaking, fixing, automating repeat till you are a Jack of All Trades)  
 🛡️ **SOC Analyst** (Top 50 CyberDefenders, partial red team mindset)  
 
 🎓 University student & self-taught  
