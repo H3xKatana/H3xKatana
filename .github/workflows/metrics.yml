@@ -24,13 +24,9 @@ jobs:
           # --- base card: header, activity, community, repos, gists ---
           base: header, activity, community, repositories, metadata
 
-          # --- 3D half-year isometric commit calendar ---
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-          # --- commit streaks come from the isocalendar block below; the
-          # habits plugin errors on v3.34 ("Cannot destructure 'author'"),
-          # so it stays disabled ---
+          # --- 3D half-year isometric commit calendar; it also shows
+          # commit streaks and per-day stats, so the (broken in v3.34)
+          # habits plugin stays off ---
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_isocalendar_details: yes
