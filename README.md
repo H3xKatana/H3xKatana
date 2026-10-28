@@ -88,18 +88,17 @@ planning. MTTR down 40 percent on a client estate.
 
 **Medium**: the Kubestronaut series and incident writeups.
 
-- [Road to Kubestronaut EP2: KCNA 97% in 45 minutes](https://0xkatana.medium.com/road-to-kubestronaut-ep2-kcna-97-in-45-min)
-- [Road to Kubestronaut EP1: CKA](https://0xkatana.medium.com/road-to-kubestronaut-ep-1-cka-498e47aebe5a)
-- [NexHunt CTF 2025 infrastructure postmortem](https://0xkatana.medium.com/nexhunt-ctf-2025-infrastructure-postmortem)
+
+- [Road to Kubestronaut EP2: KCNA 97% in 45 Minutes](https://0xkatana.medium.com/road-to-kubestronaut-ep2-kcna-97-in-45-minutes-b9cc1cb222e0?source=rss-b8ea92aada81------2) (1 month ago)
+- [Road to Kubestronaut: Ep 1 CKA](https://0xkatana.medium.com/road-to-kubestronaut-ep-1-cka-498e47aebe5a?source=rss-b8ea92aada81------2) (2 months ago)
+- [We Audited the Same Codebase with Hawiyat Composer and Claude Opus 4.8](https://0xkatana.medium.com/we-audited-the-same-codebase-with-hawiyat-composer-and-claude-opus-4-8-0304295587d7?source=rss-b8ea92aada81------2) (4 months ago)
 
 ---
 
 ## Latest pull requests
 
-- [docs(other-hosts): add Pi install entry](https://github.com/addyosmani/agent-skills/pull/659) on addyosmani/agent-skills
-- [docs: point ARMO guide at verified installer](https://github.com/kubescape/kubescape/pull/3731) on kubescape/kubescape
-- [docs: add OpenCode integration support](https://github.com/kubestellar/kubestellar-mcp/pull/491) on kubestellar/kubestellar-mcp
-- [fix(cka): correct module 1.3 Helm lab URL](https://github.com/kube-dojo/kube-dojo.github.io/pull/1742) on kube-dojo/kube-dojo.github.io
+
+- [feat : Refresh update channels from k0s releases automatically](https://github.com/k0sproject/update/pull/7) on k0sproject/update
 
 ---
 
@@ -116,4 +115,4 @@ planning. MTTR down 40 percent on a client estate.
 - Hawiyat blog: <https://www.hawiyat.org/blog>
 - Medium: <https://medium.com/@0xkatana>
 
-<sub>Profile updated automatically from GitHub and RSS. Last build: 2026-10-28.</sub>
+<sub>Profile updated automatically from GitHub and RSS.</sub>
