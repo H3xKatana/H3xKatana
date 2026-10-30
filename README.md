@@ -98,7 +98,6 @@ planning. MTTR down 40 percent on a client estate.
 ## Latest pull requests
 
 
-- [feat : Refresh update channels from k0s releases automatically](https://github.com/k0sproject/update/pull/7) on k0sproject/update
 
 ---
 
