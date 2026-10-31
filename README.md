@@ -98,6 +98,7 @@ planning. MTTR down 40 percent on a client estate.
 ## Latest pull requests
 
 
+- [Bump go-jose to v4.1.7 for CVE-2026-116587](https://github.com/kubernetes/kubernetes/pull/143657) on kubernetes/kubernetes
 
 ---
 
