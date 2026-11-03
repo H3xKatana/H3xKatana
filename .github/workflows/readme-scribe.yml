@@ -10,12 +10,47 @@ on:
 jobs:
   markscribe:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: muesli/readme-scribe@master
+      # GitHub's profile page intermittently answers 504 and readme-scribe aborts on
+      # the first non-200. Two retries with a pause, then a final strict attempt.
+      # No untrusted event input is used in this workflow.
+      - name: Render README (attempt 1)
+        id: scribe1
+        continue-on-error: true
+        uses: muesli/readme-scribe@v0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+        with:
+          template: "README.tpl"
+          writeTo: "README.md"
+
+      - name: Pause before retry
+        if: steps.scribe1.outcome == 'failure'
+        run: sleep 20
+
+      - name: Render README (attempt 2)
+        id: scribe2
+        if: steps.scribe1.outcome == 'failure'
+        continue-on-error: true
+        uses: muesli/readme-scribe@v0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+        with:
+          template: "README.tpl"
+          writeTo: "README.md"
+
+      - name: Pause before retry
+        if: steps.scribe1.outcome == 'failure' && steps.scribe2.outcome == 'failure'
+        run: sleep 45
+
+      - name: Render README (attempt 3)
+        if: steps.scribe1.outcome == 'failure' && steps.scribe2.outcome == 'failure'
+        uses: muesli/readme-scribe@v0.1
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
         with:
