@@ -98,6 +98,7 @@ planning. MTTR down 40 percent on a client estate.
 ## Latest pull requests
 
 
+- [oidc: do not report a failed JWKS fetch when one key is unsupported](https://github.com/kubernetes/kubernetes/pull/143956) on kubernetes/kubernetes
 
 ---
 
