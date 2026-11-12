@@ -98,6 +98,7 @@ planning. MTTR down 40 percent on a client estate.
 ## Latest pull requests
 
 
+- [Fix where airgap image bundles must be placed](https://github.com/k0sproject/k0s/pull/8811) on k0sproject/k0s
 
 ---
 
