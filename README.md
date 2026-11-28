@@ -98,6 +98,7 @@ planning. MTTR down 40 percent on a client estate.
 ## Latest pull requests
 
 
+- [kubectl debug -f: fix nil pointer dereference when the Pod manifest has no securityContext](https://github.com/kubernetes/kubernetes/pull/144517) on kubernetes/kubernetes
 - [Include worker Docker commands in multi-node Markdown exports](https://github.com/vllm-project/recipes/pull/1294) on vllm-project/recipes
 
 ---
